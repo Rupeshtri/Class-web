@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        
+
+        *{
+           box-sizing: border-box;
+           margin: 0px;
+           padding: 0px;
+           box-sizing: border-box;
+        }
+        body{
+            height: 3300px;
+            font-family:'Open Sans', sans-serif; 
+            /*background: linear-gradient(45deg, #CED89E, #ADCF9F, #76BA99); */
+            background: radial-gradient(#2155CD, #0AA1DD, #63acf0);
+        }
+        .nav{
+            background: linear-gradient(-45deg, #2155CD, #0AA1DD, #63acf0);
+            position: sticky;
+            top: 0px;
+            box-shadow: 0px 5px 30px rgba(0,0,0,0.4);
+        }
+
+        #first{
+            column-count: 4;
+            column-gap: 25px;
+            column-rule: 2px solid royalblue;
+        }
+        .container{
+            background-color:#ADCF9F;
+            background: radial-gradient(#2155CD, #0AA1DD, #63acf0);
+           border:3px solid purple;
+           border-radius: 22px;
+           width: 900px;
+           margin: 33px auto;
+           
+        }
+
+        .item{
+            background:#76BA99;
+            background: linear-gradient(-45deg, #3f70e4, #0AA1DD, #63acf0);
+            border: 1px solid grey;
+            border-radius: 22px;
+            margin: 10px 3px;
+            padding: 10px 3px;
+        }
+        #fruit{
+            float: left;
+            width: 48%;
+        }
+        #computer{
+            float: right;
+            width: 48%;
+
+        }
+        #stationary{
+          /* float: left;*/ 
+            width: 100%;
+            clear: both;
+
+        }
+        p, h3, {
+           /* text-align: right;
+            text-align: left;
+            text-align: center;*/
+            text-align: justify;
+
+        }
+        h1{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        .chat {
+            background: white;
+            width: 50px;
+            height: 25px;
+            border:1px solid #68ca99;
+            border-radius: 21px;
+            
+           position: fixed;
+           bottom:  20px;
+            right: 0px;
+           }
+        a{
+            text-decoration: none;
+            padding: 7px;
+            margin-top: 7px;
+            text-align: center;
+        }
+        .image{
+           height: 500px;
+           width: 650px;
+            border:1px solid #2155CD;
+            float: right;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h1>Welcome to my Store</h1>
+    </div>
+
+
+    <h2>This is a first paragrapg of index page</h2>
+    <p id="first">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum pariatur, vitae alias illo labore cum animi consectetur amet fugit cupiditate quis magni eius molestias velit libero odit, officiis quasi aut quisquam? Laudantium excepturi cupiditate earum aliquam repellat ea eveniet, animi vitae ipsum possimus non iusto voluptas blanditiis? Non eum omnis illum nulla ducimus sed natus, at ullam ex earum dolor commodi labore molestiae rem unde, explicabo minima, aperiam dolore exercitationem consectetur veniam. Enim aut, non sequi delectus provident iusto ipsam soluta, voluptatum id eos magni perspiciatis officiis. Quod veritatis similique quibusdam sapiente maiores inventore unde, consectetur adipisci minima ea autem obcaecati corrupti harum reiciendis magnam alias fugiat delectus voluptatem atque error sint voluptatum, ullam rerum. Asperiores exercitationem modi ut delectus facere, repellat doloremque nemo perferendis id a, voluptas similique provident omnis vitae assumenda minus veritatis? Error beatae dolore libero optio. Aspernatur quos officia minima quas id rerum quo error. Reprehenderit.</p>
+    <!-- <div class="container"> -->
+        
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, natus aliquid autem consequuntur voluptatibus iste accusamus ea. Rem, nesciunt debitis reprehenderit cum maiores quibusdam tempore beatae quo illum error totam ipsam tenetur. Debitis, delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla molestiae quas odio iure repellat quae, neque aut suscipit accusamus nobis quam nemo vero at, deserunt fugiat repellendus illum quis explicabo? Non ipsa dicta soluta?</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit incidunt repellendus temporibus nemo asperiores officiis modi nam provident quibusdam odio, ipsum soluta amet voluptatibus fugit magni dolor delectus cumque earum pariatur. Voluptatibus, eaque maiores!lorem34
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusantium ratione minus doloribus, dolore delectus cupiditate ea numquam eveniet suscipit deserunt, repellendus assumenda architecto temporibus quisquam consectetur nobis saepe voluptate totam? Consectetur, soluta reprehenderit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet at qui alias unde, magni maiores error. Perspiciatis a ab eius repellat vero? Quasi maiores reprehenderit deserunt dolorum iste voluptatibus nemo debitis, ipsum ipsam beatae.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="staionarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, fuga hic est, illo nostrum, repellat amet voluptatum non deserunt dolore debitis velit ab neque officia quibusdam asperiores voluptatem enim! Dolor fuga assumenda nostrum architecto!</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>glasses</h3>
+            <p id="glassespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, fuga hic est, illo nostrum, repellat amet voluptatum non deserunt dolore debitis velit ab neque officia quibusdam asperiores voluptatem enim! Dolor fuga assumenda nostrum architecto!</p>
+        </div>
+    <!-- </div> -->
+
+    <div class="image">
+        <img src="bit.webp" alt="">
+    </div>
+    <div class="chat">
+        <a href="#"> Chat...</a>
+    </div>
+</body>
+</html>

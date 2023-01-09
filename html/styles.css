@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Rubik+Gemstones&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+body{
+   
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+header{
+    background-color: #3C2A21;
+    color:#E5E5CB ;
+    padding: 20px;
+}
+header h1{
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+}
+nav{
+    background-color: #1A120B;
+    display: flex;
+justify-content: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    
+}
+nav a{
+    color:#E5E5CB ;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left:100px;
+}
+main{
+    margin:20px ;
+   
+}
+footer{
+    background-color:#D5CEA3 ;
+    color:#1A120B ;
+    padding: 20px;
+    text-align: center;
+}
+img{
+   
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+}
+.clear{
+    clear: left;
+    
+}
+p{
+     
+   
+}

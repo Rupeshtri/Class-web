@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>word-wrap & break-word</title>
+    <style>
+        body{
+            background: linear-gradient( 45deg, #CED89E, #ADCF9F, #76BA99);
+        }
+        h1{
+            color: green;
+           text-align: center;
+        }
+        .box1{
+            width: 400px;
+            border: 2px solid green;
+            background-color: #ADCF9F;
+            margin: 33px auto;
+
+             word-wrap:break-word ;
+
+        }
+
+        .box2{
+            width: 400px;
+            border: 2px solid green;
+            background-color: #ADCF9F;
+            margin: 33px auto;
+
+            word-break: break-all;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello world: CSS Word-wraper  </h1>
+    <div class="box1">
+        Lorem ipsum dolor  sit amet consectetur vvvvvvvvvvvvvvvvveeeeeeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrrrrryyyyyyyyyyyyyyyyy  adipisicing elit. Maiores aliquam, aliquid, consectetur excepturi sunt in nobis omnis voluptate quasi officia ut dolores molestiae accusantium quo consequatur rem beatae quaerat autem!
+    </div>
+    <h1>Hello world: CSS Word-breaker</h1>
+    <div class="box2">
+        Lorem ipsum dolor  sit amet consectetur vvvvvvvvvvvvvvvvveeeeeeeeeeeeeeeeeeeeeeeeeeeeerrrrrrrrrrrrrrrryyyyyyyyyyyyyyyyy  adipisicing elit. Maiores aliquam, aliquid, consectetur excepturi sunt in nobis omnis voluptate quasi officia ut dolores molestiae accusantium quo consequatur rem beatae quaerat autem!
+    </div>
+</body>
+</html>

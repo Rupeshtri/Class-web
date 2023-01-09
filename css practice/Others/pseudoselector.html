@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-selector</title>
+    <style>
+        body{
+            background-color: #ADCF9F;
+            font-family:  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .container{
+            background-color: #76BA99;
+            border: 2px solid #1d5f3f;
+            margin: 36px auto;
+            padding: 36px;
+            width: 665px;
+        }
+       
+        
+      
+       a{
+        text-decoration: none;
+       }
+
+       .btn{
+        background-color: black;
+        color: white;
+        padding: 6px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 13px;
+       }
+
+       .btn:visited{
+        color: #1d5f3f;
+        background-color: red;
+       }
+
+       .btn:hover{
+        color: #1d5f3f;
+        background-color: rgb(255, 255, 255);
+       }
+       .btn:active{
+        background-color: white;
+        color: rgb(238, 22, 22);
+       }
+
+
+      /*  a:visited{
+        color: #1d5f3f;
+        background-color: red;
+        }
+       a:visited{
+        color: #1d5f3f;
+        background-color: red;
+       }
+       a:hover{
+        color: rgb(236, 95, 218);
+        background-color: rgb(255, 255, 255);
+       }
+       a:active{
+        background-color: white;
+        color: black;
+       }
+       */
+    </style> 
+
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is a Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, tenetur quidem laborum quam ipsum distinctio consequuntur? Ipsa velit adipisci repellat minima expedita nesciunt! Beatae veniam in blanditiis repellendus et quidem!</p>
+        <a href="//twitter.com" class="btn">Read more</a>
+        <button class="btn">Contact Us</button>
+    </div>
+</body>
+</html>

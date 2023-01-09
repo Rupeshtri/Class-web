@@ -1,0 +1,44 @@
+body{
+    background-color: #EAFDFC;
+ }
+h1  {
+    color:#82AAE3;
+    width: 400px;
+    font-size: 50px;
+    font-weight:100 ;
+    font-style: ;
+} /* font-weight ranges from 100-900*/
+h3{
+    color: #82AAE3;
+}
+
+hr{
+    
+    border-style: none;
+    border-color: grey;
+    border-top-style:dotted  ;
+    border-width: 5px;
+   
+    width: 10%
+    
+    
+}
+
+
+
+
+
+
+
+
+p{
+    color: rgb(3, 65, 3);
+}
+ul li a{
+    color: red;
+}
+.header{
+    background-color: rgb(167, 164, 173);
+    
+
+}

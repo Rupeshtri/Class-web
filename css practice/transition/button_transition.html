@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button_transition</title>
+    <style>
+        
+        .btn{
+            margin: 200px ;
+            font-size: 20px;
+            font-weight: 700;
+            padding: 10px 24px;
+            color: rgb(57, 6, 109);
+            background-color: rgb(167, 92, 243);
+            border: 10px solid rgb(79, 27, 131);
+            border-radius: 5px;
+
+            /* transition-property:transform ;
+            transition-duration: 0.5s;
+            transition-timing-function: ease;
+            transition-delay: .1s; */
+
+            /* transition: transform 0.5s, background-color 0.5s, color 0.5s ; */
+            /*     or you can do like this */
+            transition: all 0.5s;
+        }
+        .btn:hover {
+             transform: translateY(-10px);
+             background-color:rgb(79, 27, 131);
+             color: white;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn">Learn More</button>
+</body>
+</html>

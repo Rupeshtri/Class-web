@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+
+        body{
+            text-align: center;
+            margin-top: 100px;
+            color: rebeccapurple;
+        }
+        @keyframes slideFromLeft{
+            from{
+                transform: translateX(-99%);
+            }
+            to{
+                transform: translateX(0);
+            }
+        }
+        .heading1{
+            animation-name: slideFromLeft;
+            animation-duration:1s;
+            animation-timing-function:ease-in;
+            animation-delay:1s ;
+            animation-iteration-count:1 ;
+            animation-direction:normal ;
+            animation-fill-mode: none;
+            /* transform: translateX(-150px); */
+
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading1">Hello World</h1>
+</body>
+</html>
